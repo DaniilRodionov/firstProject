@@ -1,0 +1,36 @@
+git init
+Initialized empty Git repository in C:/Users/Даниил/Desktop/Learn/.git/
+PS C:\Users\Даниил\Desktop\Learn> git config --local user.name "Daniil"
+PS C:\Users\Даниил\Desktop\Learn> git config --local user.email "d-rodionov@inbox.ru"
+PS C:\Users\Даниил\Desktop\Learn> git config --global user.email "d-rodionov@inbox.ru"
+PS C:\Users\Даниил\Desktop\Learn> git config --global user.name "Daniil"
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        stydy.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Даниил\Desktop\Learn> git status
+On branch master
+
+No commits yet
+
+        new file:   stydy.js
+
+PS C:\Users\Даниил\Desktop\Learn> git commit -a -m"First commit"
+[master (root-commit) d1fef1f] First commit
+ 2 files changed, 27 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 stydy.js
+PS C:\Users\Даниил\Desktop\Learn> git remote add origin https://github.com/DaniilRodionov/firstProject.git
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 718 bytes | 718.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DaniilRodionov/firstProject.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+PS C:\Users\Даниил\Desktop\Learn> git config --global user.email "RuDancho@yandex.ru"
