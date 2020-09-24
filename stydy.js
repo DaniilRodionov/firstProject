@@ -34,3 +34,26 @@ if (personalMovieDB.count < 10) {
 
 
 console.log(personalMovieDB);
+
+
+
+function showMyDB () {
+  if(personalMovieDB.privat==false) {
+     console.log(personalMovieDB)
+  }
+else{
+   console.log('Error')
+}
+};
+
+
+function writeYourGeneres(){
+for(let i=1; i<4; i++){
+  
+   personalMovieDB.geners[i-1]  = prompt('Ваш любимый жанр под номером ' + i , '');
+}
+}
+
+ writeYourGeneres();
+
+showMyDB();
